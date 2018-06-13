@@ -76,7 +76,7 @@ class RouterComponent extends Component {
             >
                 <Stack key="root" hideNavBar={true}>
                     <Stack key="first" >
-                        {/* It should be straight to the auth process. So it won't waste user's time. */}
+                        {/* It should be straight to the auth process, so it won't waste user's time. */}
                         {/* <Scene
                             key='initial_screen'
                             hideNavBar={true}

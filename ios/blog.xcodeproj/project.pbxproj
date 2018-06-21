@@ -56,6 +56,7 @@
 		6BD4816A248F45AD9D189393 /* libRNShimmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B52ECFCF1D84078A476FE3E /* libRNShimmer.a */; };
 		0D838CF1ED9A4D56BC8B3254 /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6458A9385F814831A07A73EC /* libSplashScreen.a */; };
 		ACEA899FE43A4B7BBEC7AE8C /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF2F84E745143888E3E14B2 /* libReactNativeNavigation.a */; };
+		76658AAB92FB437287242CBC /* libReact-Native-Webview-Bridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCE95F42A4E44338B6F02CA /* libReact-Native-Webview-Bridge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -311,6 +312,8 @@
 		6458A9385F814831A07A73EC /* libSplashScreen.a */ = {isa = PBXFileReference; name = "libSplashScreen.a"; path = "libSplashScreen.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		8D976279BE41434096340C84 /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; name = "ReactNativeNavigation.xcodeproj"; path = "../node_modules/react-native-navigation/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		CBF2F84E745143888E3E14B2 /* libReactNativeNavigation.a */ = {isa = PBXFileReference; name = "libReactNativeNavigation.a"; path = "libReactNativeNavigation.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		045075C9FC7040FFA90B57AF /* React-Native-Webview-Bridge.xcodeproj */ = {isa = PBXFileReference; name = "React-Native-Webview-Bridge.xcodeproj"; path = "../node_modules/react-native-webview-bridge/ios/React-Native-Webview-Bridge.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		FDCE95F42A4E44338B6F02CA /* libReact-Native-Webview-Bridge.a */ = {isa = PBXFileReference; name = "libReact-Native-Webview-Bridge.a"; path = "libReact-Native-Webview-Bridge.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +351,7 @@
 				6BD4816A248F45AD9D189393 /* libRNShimmer.a in Frameworks */,
 				0D838CF1ED9A4D56BC8B3254 /* libSplashScreen.a in Frameworks */,
 				ACEA899FE43A4B7BBEC7AE8C /* libReactNativeNavigation.a in Frameworks */,
+				76658AAB92FB437287242CBC /* libReact-Native-Webview-Bridge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +528,7 @@
 				CC1721E389ED42119E9D7558 /* RNShimmer.xcodeproj */,
 				31CA55706C5E408A85E4FE5C /* SplashScreen.xcodeproj */,
 				8D976279BE41434096340C84 /* ReactNativeNavigation.xcodeproj */,
+				045075C9FC7040FFA90B57AF /* React-Native-Webview-Bridge.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1120,6 +1125,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1127,6 +1133,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-shimmer\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-webview-bridge\ios",
 				);
 			};
 			name = Debug;
@@ -1155,6 +1162,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1162,6 +1170,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-shimmer\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-webview-bridge\ios",
 				);
 			};
 			name = Release;
@@ -1187,6 +1196,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-shimmer\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-webview-bridge\ios",
 				);
 			};
 			name = Debug;
@@ -1211,6 +1221,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-shimmer\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-webview-bridge\ios",
 				);
 			};
 			name = Release;
@@ -1248,6 +1259,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1255,6 +1267,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-shimmer\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-webview-bridge\ios",
 				);
 			};
 			name = Debug;
@@ -1292,6 +1305,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1299,6 +1313,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-shimmer\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-webview-bridge\ios",
 				);
 			};
 			name = Release;
@@ -1331,6 +1346,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1355,6 +1371,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
